@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Legal Solution Resources</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- font awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body class="mt-12">
@@ -169,7 +171,7 @@
           <textarea
             class="block w-[570px] text-[16px] font-normal text-[#707070] bg-[#F3F3F3] pl-6 pt-6 mt-7 rounded-lg"
             name="message" id="message" cols="30" rows="6" placeholder="Your Message"></textarea>
-          <input class="w-[570px] h-[72px] bg-[#B68C5A] text-[20px] font-semibold text-[#FFFFFF] rounded-lg mt-7"
+          <input class="w-[570px] h-[72px] bg-[#B68C5A] text-[20px] font-semibold text-[#FFFFFF] rounded-lg mt-7 cursor-pointer"
             type="button" value="Send Message">
       </div>
     </div>
@@ -208,10 +210,12 @@
         <h1 class="text-2xl text-[#FFFFFF] font-bold mb-12">Subscribe</h1>
         <p class="text-[16px] font-normal text-[#F3F3F3]">Subscribe for our latest & Articles. We Won’t Give You Spam
           Mails</p>
-        <div>
-          <input class="w-[324px] h-[72px] text-[#535050] pl-[33px] rounded-2xl bg-[#FFFFFF] mt-6" type="email"
+        <div class="flex items-center relative">
+          <input class="w-[324px] h-[72px] text-[#535050] pl-[24px] rounded-2xl bg-[#FFFFFF] mt-6" type="email"
             name="email" id="email" placeholder="Enter your email">
-          <img src="" alt="">
+            <div class="w-[72px] h-[72px] bg-[#B68C5A] text-[#FFFFFF] absolute left-auto right-0 top-1/4 rounded-lg flex justify-center items-center cursor-pointer">
+              <i class="fa-solid fa-paper-plane text-2xl"></i>
+            </div>
         </div>
       </div>
     </div>
